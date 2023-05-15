@@ -1,1 +1,2 @@
 Interface la gi:
+Một Interface trong Java là một bản thiết kế của một lớp.
