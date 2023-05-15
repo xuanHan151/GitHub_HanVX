@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đăng nhập</title>
+<style type="text/css">
+.btnOK, .btnHome {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+img.avatar {
+  border-radius: 50%;
+}
+
+#divCenter{
+  position: absolute;
+  width: 40%;
+  height: 200px;
+  z-index: 15;
+  top: 10%;
+  left: 30%;
+  border: 3px solid #f1f1f1;
+  background: blue;
+}
+</style>
+</head>
+<body>
+	<div id = "divCenter">
+Mời bạn đăng nhập!
+	<h1>Đăng nhập</h1>
+	<form action="login" method="post">
+		<div class="imgcontainer">
+			<img src="imgLogin.png" alt="Avatar" class="avatar">
+		</div>
+		Username: <input type="text" placeholder="Enter Username" name="tenDangNhap">
+		Password: <input type="password" placeholder="Enter Password" name="matKhau">
+
+	    <br><br>
+		
+		<input type="submit" class="btnOK" value = "Đăng nhập"></input>
+		<input type="button" class="btnHome" value="Quay về trang chủ"></input>
+
+	</form>
+	
+	</div>
+</body>
+</html>
